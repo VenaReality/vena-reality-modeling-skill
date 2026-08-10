@@ -1,6 +1,7 @@
 # Vena Reality Modeling Skill
 
 > A lightweight AI reasoning skill based on Vena Reality Methodology, enabling reality-first analysis before modeling, decision-making, and solution generation.
+Vena Reality helps reduce cognitive contamination in AI reasoning by forcing models to examine reality structures before generating solutions.
 
 Version: 0.1.0
 
