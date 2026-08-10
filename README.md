@@ -276,3 +276,14 @@ How can change become capability?
 # License
 
 MIT License
+
+
+## Examples
+
+The repository includes several Meta Cases from Vena Reality Methodology, demonstrating how reality-first reasoning identifies hidden assumptions, constraints, and structural factors behind decisions.
+
+Examples:
+
+- Refrigerator Case: Understanding demand reality beyond product functions.
+- Alipay Social Case: Understanding user relationship and mental model reality.
+- Fetion Case: Understanding organizational system constraints and evolution capability.
