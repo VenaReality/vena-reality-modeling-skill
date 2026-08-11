@@ -254,6 +254,18 @@ Using reality analysis for:
 The current Skill represents the foundation layer.
 
 ---
+## Theory Modules
+
+Vena Reality Modeling includes several conceptual modules.
+
+### Architecture Theory
+
+Architecture is not limited to software systems.
+It is the design of structures, boundaries, relationships, rules, and evolution mechanisms in complex systems.
+
+See:
+docs/architecture-theory.md
+
 # Related Work
 
 Vena Reality Methodology is also the foundation of broader enterprise decision intelligence systems.
