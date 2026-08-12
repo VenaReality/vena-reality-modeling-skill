@@ -1,19 +1,18 @@
 # Vena Reality Modeling Skill
 
 > A lightweight AI reasoning skill based on Vena Reality Methodology, enabling reality-first analysis before modeling, decision-making, and solution generation.
-Vena Reality helps reduce cognitive contamination in AI reasoning by forcing models to examine reality structures before generating solutions.
 
-Version: 0.1.0
+> Vena Reality helps AI systems reduce cognitive contamination by forcing models to understand the reality structures behind problems before generating solutions.
+
+Version: 0.2.0
 
 ---
 
 # Overview
 
-Vena Reality Modeling Skill is a lightweight AI-oriented implementation of the Vena Reality Methodology.
+Vena Reality Modeling Skill is a lightweight AI-oriented implementation of Vena Reality Methodology.
 
-It is not the complete Vena Reality framework itself.
-
-Instead, it extracts the core reasoning protocol of Vena Reality and makes it usable as an AI Skill.
+It extracts the core reasoning protocol of Vena Reality and makes it usable as an AI Skill.
 
 The purpose is to help AI agents start from reality itself:
 
@@ -32,11 +31,7 @@ The core principle:
 
 Vena Reality Methodology is a reality-first thinking approach.
 
-It focuses on understanding the factors that determine:
-
-- The current state of a situation
-- The direction of change
-- The possible outcomes
+It focuses on understanding the structures that produce observed outcomes.
 
 Reality is not only facts.
 
@@ -52,15 +47,15 @@ A complete reality structure includes:
 - Business Essence
 - Forces / Trends
 
-The goal is not to collect more information.
+The goal is not simply collecting more information.
 
-The goal is to identify the structures that actually produce the observed reality.
+The goal is identifying the structures that actually create the current reality.
 
 ---
 
 # Why Reality-First?
 
-Many AI systems and knowledge systems start from existing representations:
+Many AI systems start from existing representations:
 
 
 Data
@@ -72,7 +67,7 @@ Relationships
 Representation of Reality
 
 
-This approach is valuable for organizing known information.
+This approach is useful for organizing existing knowledge.
 
 However, complex real-world problems often appear before complete representations exist.
 
@@ -102,7 +97,7 @@ Decision and Action
 
 The starting point is not existing knowledge.
 
-The starting point is the real situation that produces the knowledge.
+The starting point is the reality that produces the knowledge.
 
 ---
 
@@ -157,6 +152,7 @@ Who defines this problem?
 What perspective shapes this definition?
 
 ↓
+
 Reality Capture
 
 Facts
@@ -169,14 +165,14 @@ Business Essence
 Forces
 
 ↓
+
 Reality Modeling
 
 Build a structural understanding
 
 ↓
-Decision and Action
 
-Design solutions based on reality
+Decision and Action
 
 
 ---
@@ -185,27 +181,43 @@ Design solutions based on reality
 
 A Vena Reality Model includes:
 
+## Facts
 
-Facts
+What has happened or currently exists.
 
-Constraints
+## Constraints
 
-Variables
+Boundaries that limit possible actions.
 
-Boundaries
+## Variables
 
-Relationships
+Factors that influence outcomes.
 
-Observers
+## Boundaries
 
-Human Factors
+System scope and interaction limits.
 
-Business Essence
+## Relationships
 
-Forces / Trends
+Connections between elements.
 
+## Observers
 
-The purpose is to identify the factors that influence:
+Different perspectives, positions, interests and interpretations.
+
+## Human Factors
+
+Behavior, incentives, psychology and organizational reality.
+
+## Business Essence
+
+Underlying value creation and economic logic.
+
+## Forces / Trends
+
+External and internal forces affecting evolution.
+
+The purpose is to identify the factors influencing:
 
 - Current state
 - Evolution direction
@@ -213,70 +225,168 @@ The purpose is to identify the factors that influence:
 
 ---
 
-# Scope of This Skill
+# Reality Action Loop
 
-This repository contains the core reality reasoning layer.
+Reality Modeling is not only an analysis process.
 
-The examples currently included mainly demonstrate business-related reality analysis.
+Real-world systems continuously change after actions are taken.
 
-However, Vena Reality Methodology is not limited to business analysis.
+Therefore, Reality Modeling forms a continuous loop:
 
-Future extensions may include:
 
-## Reality Product Modeling
+Reality Situation
+↓
+Reality Capture
+↓
+Reality Modeling
+↓
+Decision / Action
+↓
+Evidence Collection
+↓
+Reality Update
+↓
+New Modeling
 
-Using reality analysis for:
+
+This prevents AI systems from treating reality as static.
+
+A high-quality AI system should continuously align actions with changing reality.
+
+---
+
+# Application Layers
+
+Vena Reality Modeling provides the foundation reasoning layer.
+
+Different application skills can extend Reality Modeling into specific domains.
+
+Examples:
+
+## Reality Agent Execution
+
+Applying Reality principles to AI execution processes.
+
+Purpose:
+
+- Understand existing reality before acting
+- Avoid assumption-driven execution
+- Identify real gaps
+- Maintain execution boundaries
+- Improve action quality through evidence
+
+Applicable to:
+
+- Coding agents
+- Enterprise AI agents
+- Product agents
+- Operation agents
+
+See:
+
+
+docs/applications/agent-execution/SKILL.md
+
+
+---
+
+## Enterprise Decision Support
+
+Applying Reality Modeling to:
+
+- Strategic analysis
+- Business decisions
+- Architecture evaluation
+- Organizational problems
+
+---
+
+## Product Reality Modeling
+
+Applying Reality Modeling to:
 
 - Product definition
 - User needs
-- Product boundaries
-- Capability design
+- Capability boundaries
 - Product evolution
 
-## Reality Modeling
+---
 
-Using reality analysis for:
+The foundation remains unchanged:
 
-- Complex systems
-- Enterprise architecture
-- Organizational structures
-- Decision models
 
-## Reality Strategy
+Understand Reality
 
-Using reality analysis for:
+    ↓
 
-- Strategic choices
-- Industry evolution
-- Competitive positioning
-- Long-term direction
+Build Reality Model
 
-The current Skill represents the foundation layer.
+    ↓
+
+Take Action Within Reality
+
 
 ---
-## Theory Modules
 
-Vena Reality Modeling includes several conceptual modules.
+# Scope of This Repository
 
-### Architecture Theory
+This repository contains the foundation Reality Modeling layer.
+
+It is not the complete Vena Reality framework.
+
+It extracts the core reasoning protocol and makes it available as an AI Skill.
+
+The current examples mainly demonstrate business-related Reality Analysis.
+
+However, Reality Modeling is not limited to business scenarios.
+
+It can be applied to:
+
+- Enterprise architecture
+- Product design
+- Organizational systems
+- Strategy
+- Decision models
+- Complex problem solving
+- AI reasoning systems
+
+---
+
+# Theory Modules
+
+Vena Reality Modeling includes conceptual modules describing broader applications.
+
+## Architecture Theory
 
 Architecture is not limited to software systems.
-It is the design of structures, boundaries, relationships, rules, and evolution mechanisms in complex systems.
+
+It is the design of:
+
+- Structures
+- Boundaries
+- Relationships
+- Rules
+- Evolution mechanisms
+
+in complex systems.
 
 See:
+
+
 docs/architecture-theory.md
+
+
+---
 
 # Related Work
 
-Vena Reality Methodology is also the foundation of broader enterprise decision intelligence systems.
-
-Based on the same reality-first principles, Vena has developed:
+Vena Reality Methodology is also the foundation of broader enterprise AI and decision intelligence systems.
 
 ## Vena Decision Intelligence System
 
 Vena Decision Intelligence System applies Reality Modeling principles to enterprise decision processes.
 
-It extends reality analysis into areas including:
+It extends reality analysis into:
 
 - Decision evaluation
 - Architecture review
@@ -284,11 +394,10 @@ It extends reality analysis into areas including:
 - Decision governance
 - Quality control mechanisms
 
-The complete system is broader than this Skill repository and is not included here.
+The complete system is broader than this Skill repository.
 
-To make parts of the methodology more accessible, lightweight components such as architecture review gates and decision evaluation frameworks may be released independently.
+This repository focuses on the foundation layer:
 
-The current repository focuses on the foundation layer:
 
 Understand Reality
 ↓
@@ -296,9 +405,8 @@ Build Reality Model
 ↓
 Improve Decision Quality
 
-The purpose is to help AI systems and humans make better decisions by understanding the reality behind problems before taking action.
 
-
+---
 
 # Example
 
@@ -306,37 +414,63 @@ The purpose is to help AI systems and humans make better decisions by understand
 
 "Our customer service efficiency is low. How should we improve it?"
 
+---
+
 ## Typical AI Approach
 
 
 Customer service slow
+
 ↓
+
 Add automation
+
 ↓
+
 Optimize workflow
+
 ↓
+
 Improve training
 
+
+---
 
 ## Vena Reality Approach
 
 
 Customer service problem
+
 ↓
+
 Is this the real problem?
+
 ↓
+
 Why are service requests increasing?
+
 ↓
+
 Analyze facts
+
 ↓
+
 Identify constraints
+
 ↓
+
 Understand stakeholders
+
 ↓
+
 Find causal structure
+
 ↓
+
 Model reality
+
 ↓
+
 Design intervention
 
 
@@ -370,17 +504,28 @@ Not intended for:
 
 # Installation
 
-Copy `SKILL.md` into the skill/rules directory supported by your AI agent.
-
-Example:
+Repository structure:
 
 
-skills/
-└── vena-reality-modeling/
-└── SKILL.md
+vena-reality-modeling-skill/
 
+├── SKILL.md
 
-Then reload your AI agent.
+└── docs/
+
+├── architecture-theory.md
+
+└── applications/
+
+    └── agent-execution/
+
+        └── SKILL.md
+
+`SKILL.md` provides the core Reality Modeling capability.
+
+Application skills extend Reality Modeling for specific scenarios.
+
+Install the required skill according to your AI agent environment.
 
 ---
 
@@ -410,7 +555,7 @@ AI systems are increasingly capable of:
 - Reasoning
 - Structure generation
 
-However, many failures happen because AI reasons from an incomplete or incorrect problem definition.
+However, many failures happen because AI reasons from incomplete or incorrect problem definitions.
 
 Vena Reality introduces an earlier reasoning layer:
 
@@ -432,13 +577,21 @@ Then:
 
 
 Is this the real problem?
+
 ↓
+
 What reality creates it?
+
 ↓
+
 What structure explains it?
+
 ↓
+
 What should change?
+
 ↓
+
 How can change become capability?
 
 
@@ -450,13 +603,18 @@ The repository includes several Meta Cases from Vena Reality Methodology.
 
 These examples are not intended as simple business case studies.
 
-They demonstrate how reality-first reasoning identifies hidden assumptions, constraints, human factors, and structural conditions behind decisions.
+They demonstrate how reality-first reasoning identifies:
+
+- Hidden assumptions
+- Constraints
+- Human factors
+- Structural conditions behind decisions
 
 Examples:
 
-- Refrigerator Case: Understanding human demand reality beyond product functions.
-- Alipay Social Case: Understanding relationship reality and user mental models.
-- Fetion Case: Understanding organizational system reality and evolution capability.
+- Refrigerator Case
+- Alipay Social Case
+- Fetion Case
 
 ---
 
